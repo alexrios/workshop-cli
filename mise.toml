@@ -1,0 +1,15 @@
+[tools]
+go = "1.25"
+
+
+[tasks.build]
+run = "go build -o workshop ./cmd/workshop"
+
+[tasks.install]
+run = "go install ./cmd/workshop"
+
+[tasks.test]
+run = "go test ./..."
+
+[settings]
+experimental = true
