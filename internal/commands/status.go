@@ -14,8 +14,8 @@ func Status() error {
 
 	found := false
 
-	// Iterate through modules 01-13
-	for i := 1; i <= 13; i++ {
+	// Iterate through modules 01-15
+	for i := 1; i <= 15; i++ {
 		moduleDir := fmt.Sprintf("module%02d", i)
 		if !dirExists(moduleDir) {
 			continue
